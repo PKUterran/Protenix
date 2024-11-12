@@ -35,8 +35,8 @@ from protenix.web_service.dependency_url import URL
 MMSEQS_SERVICE_HOST_URL = "http://101.126.11.40:80"
 MAX_ATOM_NUM = 60000
 MAX_TOKEN_NUM = 5000
-DATA_CACHE_DIR = "/af3-dev/release_data/"
-CHECKPOINT_DIR = "/af3-dev/release_model/"
+DATA_CACHE_DIR = "/vepfs/fs_projects/yangsw/af3-dev/release_data/"
+CHECKPOINT_DIR = "/vepfs/fs_projects/yangsw/af3-dev/release_model/"
 
 
 def download_tos_url(tos_url, local_file_path):
